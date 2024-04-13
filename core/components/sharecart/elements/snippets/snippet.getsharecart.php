@@ -11,7 +11,7 @@ if (!$shareCart = $modx->getService('sharecart', 'shareCart', $modx->getOption('
  * @var pdoFetch $pdoFetch
  */
 $pdoFetch = $modx->getService('pdoFetch');
-$tpl = $modx->getOption('tpl', $scriptProperties, 'getShareCart');
+$tpl = $modx->getOption('tpl', $scriptProperties, 'chunk.getShareCart');
 $output = '';
 
 $carts = $shareCart->getCart();
