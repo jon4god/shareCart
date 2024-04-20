@@ -13,6 +13,7 @@ $(document).ready(function () {
                     theme: 'ms2-message-success',
                     sticky: false
                 });
+                navigator.clipboard.writeText(link);
                 $('#getlink').html(link);
             }
         });
